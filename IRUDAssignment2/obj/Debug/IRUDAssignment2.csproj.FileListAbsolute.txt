@@ -1,0 +1,14 @@
+C:\Users\PC\Downloads\VStudio\IRUDAssignment2\IRUDAssignment2\bin\Debug\IRUDAssignment2.exe.config
+C:\Users\PC\Downloads\VStudio\IRUDAssignment2\IRUDAssignment2\bin\Debug\IRUDAssignment2.exe
+C:\Users\PC\Downloads\VStudio\IRUDAssignment2\IRUDAssignment2\bin\Debug\IRUDAssignment2.pdb
+C:\Users\PC\Downloads\VStudio\IRUDAssignment2\IRUDAssignment2\obj\Debug\IRUDAssignment2.csproj.AssemblyReference.cache
+C:\Users\PC\Downloads\VStudio\IRUDAssignment2\IRUDAssignment2\obj\Debug\IRUDAssignment2.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\VStudio\IRUDAssignment2\IRUDAssignment2\obj\Debug\IRUDAssignment2.exe
+C:\Users\PC\Downloads\VStudio\IRUDAssignment2\IRUDAssignment2\obj\Debug\IRUDAssignment2.pdb
+C:\Users\PC\Downloads\IRUDAssignment2\IRUDAssignment2\bin\Debug\IRUDAssignment2.exe.config
+C:\Users\PC\Downloads\IRUDAssignment2\IRUDAssignment2\bin\Debug\IRUDAssignment2.exe
+C:\Users\PC\Downloads\IRUDAssignment2\IRUDAssignment2\bin\Debug\IRUDAssignment2.pdb
+C:\Users\PC\Downloads\IRUDAssignment2\IRUDAssignment2\obj\Debug\IRUDAssignment2.csproj.AssemblyReference.cache
+C:\Users\PC\Downloads\IRUDAssignment2\IRUDAssignment2\obj\Debug\IRUDAssignment2.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\IRUDAssignment2\IRUDAssignment2\obj\Debug\IRUDAssignment2.exe
+C:\Users\PC\Downloads\IRUDAssignment2\IRUDAssignment2\obj\Debug\IRUDAssignment2.pdb

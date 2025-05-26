@@ -1,0 +1,352 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Downloads\\Assignment2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|c:\\users\\pc\\downloads\\assignment2\\irudassignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|solutionrelative:irudassignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|c:\\users\\pc\\downloads\\assignment2\\irudassignment2\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|solutionrelative:irudassignment2\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|c:\\users\\pc\\downloads\\assignment2\\irudassignment2\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|solutionrelative:irudassignment2\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|c:\\users\\pc\\downloads\\assignment2\\irudassignment2\\icharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|solutionrelative:irudassignment2\\icharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|c:\\users\\pc\\downloads\\assignment2\\irudassignment2\\baseknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|solutionrelative:irudassignment2\\baseknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|C:\\Users\\PC\\Downloads\\Assignment2\\irudassignment2\\baseknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|solutionrelative:irudassignment2\\baseknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|c:\\users\\pc\\downloads\\assignment2\\irudassignment2\\basearcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|solutionrelative:irudassignment2\\basearcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|C:\\Users\\PC\\Downloads\\Assignment2\\irudassignment2\\basearcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|solutionrelative:irudassignment2\\basearcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|c:\\users\\pc\\downloads\\assignment2\\irudassignment2\\battlecommander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|solutionrelative:irudassignment2\\battlecommander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|c:\\users\\pc\\downloads\\assignment2\\irudassignment2\\healcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\Assignment2.csproj|solutionrelative:irudassignment2\\healcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|C:\\Users\\PC\\Downloads\\Assignment2\\irudassignment2\\healcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|solutionrelative:irudassignment2\\healcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|C:\\Users\\PC\\Downloads\\Assignment2\\irudassignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|solutionrelative:irudassignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|C:\\Users\\PC\\Downloads\\Assignment2\\irudassignment2\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|solutionrelative:irudassignment2\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|C:\\Users\\PC\\Downloads\\Assignment2\\irudassignment2\\flamingarrows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|solutionrelative:irudassignment2\\flamingarrows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|C:\\Users\\PC\\Downloads\\Assignment2\\irudassignment2\\defendcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|solutionrelative:irudassignment2\\defendcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|C:\\Users\\PC\\Downloads\\Assignment2\\irudassignment2\\attackcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|solutionrelative:irudassignment2\\attackcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|C:\\Users\\PC\\Downloads\\Assignment2\\irudassignment2\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|solutionrelative:irudassignment2\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|C:\\Users\\PC\\Downloads\\Assignment2\\irudassignment2\\flamesword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|solutionrelative:irudassignment2\\flamesword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|C:\\Users\\PC\\Downloads\\Assignment2\\irudassignment2\\characterdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|solutionrelative:irudassignment2\\characterdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|C:\\Users\\PC\\Downloads\\Assignment2\\irudassignment2\\dragonslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03F6240D-B1B9-4945-BA39-FF578C8D0E48}|IRUDAssignment2\\IRUDAssignment2.csproj|solutionrelative:irudassignment2\\dragonslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseKnight.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\BaseKnight.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\BaseKnight.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\BaseKnight.cs",
+              "RelativeToolTip": "IRUDAssignment2\\BaseKnight.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T19:31:26.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseArcher.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\BaseArcher.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\BaseArcher.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\BaseArcher.cs",
+              "RelativeToolTip": "IRUDAssignment2\\BaseArcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T19:31:20.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BattleCommander.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\BattleCommander.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\BattleCommander.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\BattleCommander.cs",
+              "RelativeToolTip": "IRUDAssignment2\\BattleCommander.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T19:16:17.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseKnight.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\BaseKnight.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\BaseKnight.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\BaseKnight.cs",
+              "RelativeToolTip": "IRUDAssignment2\\BaseKnight.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T18:47:31.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseArcher.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\BaseArcher.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\BaseArcher.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\BaseArcher.cs",
+              "RelativeToolTip": "IRUDAssignment2\\BaseArcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:32:17.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICharacter.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\ICharacter.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\ICharacter.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\ICharacter.cs",
+              "RelativeToolTip": "IRUDAssignment2\\ICharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T19:18:33.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\Character.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\Character.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\Character.cs",
+              "RelativeToolTip": "IRUDAssignment2\\Character.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T19:20:37.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\GameManager.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\GameManager.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\GameManager.cs",
+              "RelativeToolTip": "IRUDAssignment2\\GameManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T19:18:30.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\Program.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\Program.cs*",
+              "RelativeToolTip": "IRUDAssignment2\\Program.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T19:24:50.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HealCommand.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\HealCommand.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\HealCommand.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\HealCommand.cs",
+              "RelativeToolTip": "IRUDAssignment2\\HealCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T19:31:14.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\Character.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\Character.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\Character.cs",
+              "RelativeToolTip": "IRUDAssignment2\\Character.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T18:07:06.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\Program.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\Program.cs",
+              "RelativeToolTip": "IRUDAssignment2\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T18:31:34.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\ICommand.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\ICommand.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\ICommand.cs",
+              "RelativeToolTip": "IRUDAssignment2\\ICommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:22:44.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HealCommand.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\HealCommand.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\HealCommand.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\HealCommand.cs",
+              "RelativeToolTip": "IRUDAssignment2\\HealCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:59:01.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AttackCommand.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\AttackCommand.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\AttackCommand.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\AttackCommand.cs",
+              "RelativeToolTip": "IRUDAssignment2\\AttackCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:57:34.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DefendCommand.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\DefendCommand.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\DefendCommand.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\DefendCommand.cs",
+              "RelativeToolTip": "IRUDAssignment2\\DefendCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:58:35.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FlamingArrows.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\FlamingArrows.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\FlamingArrows.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\FlamingArrows.cs",
+              "RelativeToolTip": "IRUDAssignment2\\FlamingArrows.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:42:22.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FlameSword.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\FlameSword.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\FlameSword.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\FlameSword.cs",
+              "RelativeToolTip": "IRUDAssignment2\\FlameSword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:12:36.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DragonSlayer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\DragonSlayer.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\DragonSlayer.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\DragonSlayer.cs",
+              "RelativeToolTip": "IRUDAssignment2\\DragonSlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:23:21.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CharacterDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\CharacterDecorator.cs",
+              "RelativeDocumentMoniker": "IRUDAssignment2\\CharacterDecorator.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Assignment2\\IRUDAssignment2\\CharacterDecorator.cs",
+              "RelativeToolTip": "IRUDAssignment2\\CharacterDecorator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T18:56:35.155Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
