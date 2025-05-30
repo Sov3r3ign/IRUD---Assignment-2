@@ -193,29 +193,30 @@ objects.
          return base.GetPower() + 15;
        } 
  
-} 
+    } 
 
 2.9 ATTACKCOMMAND 
-class AttackCommand : ICommand 
-{ 
+
+    class AttackCommand : ICommand 
+    { 
 
      private Character knight; 
      
      public AttackCommand(Character warrior) 
      { 
       knight = warrior; 
-    } 
+     } 
  
  
-    public void Execute() 
-    { 
+     public void Execute() 
+     { 
         knight.Attack(); 
-    } 
-    public void Undo() 
-    { 
+     } 
+      public void Undo() 
+      { 
         knight.UndoMove(); 
+      } 
     } 
-} 
 2.10 DEFENDCOMMAND 
 
      class DefendCommand : ICommand 
