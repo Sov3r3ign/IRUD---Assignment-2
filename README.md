@@ -1,6 +1,6 @@
 # IRUD---Assignment-2
-SECTION 1 
-1.1 SCENARIO OVERVIEW 
+<h2>SECTION 1</h2> 
+<h2>SCENARIO OVERVIEW</h2> 
 It is vital to maintain a structured design and flexibility in code architecture to guarantee scalability and 
 long-term ease of maintenance in the world of modern gaming, especially within role-playing games 
 (RPGs). CastleForge, which is the system described in this assignment, simulates a fantasy battle 
@@ -47,70 +47,80 @@ objects.
 • Usage: Promotes flexibility in character customization without modifying the base class.
 
 2.1ICOMMAND 
-interface ICommand 
-{ 
-void Execute(); 
-void Undo();
-} 
+
+    interface ICommand 
+    { 
+    void Execute(); 
+    void Undo();
+    } 
  
 2.2 ICHARACTER 
-interface ICharacter //Component 
-{ 
-  string GetName(); 
-  string GetDescription(); 
-  int GetPower();
-} 
+
+    interface ICharacter //Component 
+    { 
+     string GetName(); 
+     string GetDescription(); 
+     int GetPower();
+    } 
  
 2.3 CHARACTERDECORATOR 
-abstract class CharacterDecorator : ICharacter 
-{ 
-protected ICharacter knightCharacter; 
-public CharacterDecorator(ICharacter knightCharacter) 
-{ 
-  this.knightCharacter = knightCharacter;
-}  
 
-public virtual string GetName() 
-{ 
- return knightCharacter.GetName(); 
-} 
+    abstract class CharacterDecorator : ICharacter 
+    { 
+     protected ICharacter knightCharacter; 
+     public CharacterDecorator(ICharacter knightCharacter) 
+    { 
+     this.knightCharacter = knightCharacter;
+    }  
 
-public virtual string GetDescription() 
-{ 
-   return knightCharacter.GetDescription(); 
-} 
+    public virtual string GetName() 
+    { 
+     return knightCharacter.GetName(); 
+    } 
 
-public virtual int GetPower() 
-{ 
-return knightCharacter.GetPower(); 
-} 
+    public virtual string GetDescription() 
+    { 
+     return knightCharacter.GetDescription(); 
+    } 
 
-} 
+    public virtual int GetPower() 
+    { 
+     return knightCharacter.GetPower(); 
+    } 
+
+    } 
 2.4 BASEKNIGHT 
 
-class BaseKnight : ICharacter //Concrete Component 
-{ 
+    class BaseKnight : ICharacter //Concrete Component 
+    { 
+    
     public string name; 
+    
     public BaseKnight(string name) 
     { 
         this.name = name; 
     } 
+    
     public string GetName() 
-    { 
+     { 
         return name; 
-    } 
-    public string GetDescription() 
-    { 
+     } 
+    
+     public string GetDescription() 
+     { 
         return $"The Knight: {name}"; 
-    } 
-    public int GetPower() 
-    { 
+     } 
+    
+     public int GetPower() 
+     { 
         return 45; 
+     } 
     } 
-} 
 2.5 BASEARCHER 
-class BaseArcher : ICharacter 
-{ 
+
+    class BaseArcher : ICharacter 
+    {  
+    
     public string name; 
     public BaseArcher(string archerName) 
     { 
@@ -122,63 +132,66 @@ class BaseArcher : ICharacter
      } 
  
     public string GetDescription() 
-   { 
+    { 
       return $"The Archer: {name}"; 
-   } 
+    } 
 
-public int GetPower() 
-{ 
-  return 45; 
-} 
-} 
+     public int GetPower() 
+     { 
+      return 45; 
+     } 
+    } 
 
 2.6 FLAMESWORD 
-class FlameSword : CharacterDecorator 
-{ 
-public FlameSword(ICharacter kcharacter) : base(kcharacter){} 
-public override string GetDescription() 
-{ 
-  return base.GetDescription() + "\nEquips Flame Sword "; 
-} 
 
-public override int GetPower() 
-{ 
-return base.GetPower() + 20; 
-} 
+    class FlameSword : CharacterDecorator 
+    { 
+       public FlameSword(ICharacter kcharacter) : base(kcharacter){} 
+       public override string GetDescription() 
+      { 
+       return base.GetDescription() + "\nEquips Flame Sword "; 
+      } 
 
-} 
+       public override int GetPower() 
+      { 
+       return base.GetPower() + 20; 
+      } 
+
+    } 
 
 
 2.7 DRAGONSLAYER 
-class DragonSlayer : CharacterDecorator 
-{ 
-public DragonSlayer(ICharacter character) : base(character) 
-{ 
-} 
-public override string GetDescription() 
-{ 
-return base.GetDescription() + "\nEquips Dragon Slayer Sword "; 
-} 
 
-public override int GetPower() 
-{ 
-  return base.GetPower() + 30;
-} 
-} 
+     class DragonSlayer : CharacterDecorator 
+    { 
+      public DragonSlayer(ICharacter character) : base(character) 
+      { 
+      } 
+      public override string GetDescription() 
+     { 
+       return base.GetDescription() + "\nEquips Dragon Slayer Sword "; 
+     } 
+
+     public override int GetPower() 
+     { 
+      return base.GetPower() + 30;
+     } 
+    } 
  
 2.8 FLAMINGARROWS 
-class FlamingArrows : CharacterDecorator 
-{ 
-public FlamingArrows(ICharacter kcharacter) : base(kcharacter) { } 
-public override string GetDescription() 
-{ 
-return base.GetDescription() + "\nEquips Flaming Arrows "; 
-} 
 
-public override int GetPower() 
-{ 
-return base.GetPower() + 15;
-} 
+    class FlamingArrows : CharacterDecorator 
+    { 
+       public FlamingArrows(ICharacter kcharacter) : base(kcharacter) { } 
+       public override string GetDescription() 
+       { 
+         return base.GetDescription() + "\nEquips Flaming Arrows "; 
+       } 
+
+       public override int GetPower() 
+       { 
+         return base.GetPower() + 15;
+       } 
  
 } 
 
@@ -204,93 +217,93 @@ class AttackCommand : ICommand
     } 
 } 
 2.10 DEFENDCOMMAND 
-class DefendCommand : ICommand 
-{ 
-    private Character knight; 
-    public DefendCommand(Character warrior) 
-    { 
-        knight = warrior; 
-    } 
-    public void Execute() 
-    { 
-        knight.Defend(); 
-    } 
-    public void Undo() 
-    { 
-        knight.UndoMove(); 
-    } 
-} 
-2.11 HEALCOMMAND 
-class HealCommand : ICommand 
-{ 
-    private Character knight; 
-    public HealCommand(Character warrior) 
 
- 
+     class DefendCommand : ICommand 
     { 
+       private Character knight; 
+       public DefendCommand(Character warrior) 
+      { 
         knight = warrior; 
-    } 
-    public void Execute() 
-    { 
-        knight.Heal(); 
-    } 
-    public void Undo() 
-    { 
+      } 
+      public void Execute() 
+      { 
+        knight.Defend(); 
+      } 
+       public void Undo() 
+      { 
         knight.UndoMove(); 
+      } 
     } 
-} 
+2.11 HEALCOMMAND 
+
+     class HealCommand : ICommand 
+    { 
+      private Character knight; 
+      public HealCommand(Character warrior) 
+      { 
+        knight = warrior; 
+      } 
+      public void Execute() 
+      { 
+        knight.Heal(); 
+      } 
+      public void Undo() 
+      { 
+        knight.UndoMove(); 
+      } 
+    } 
 2.12 BATTLECOMMANDER 
-class BattleCommander 
-{ 
-    private ICommand battleCommand; 
-    public void setCommand(ICommand command) 
+
+     class BattleCommander 
     { 
+       private ICommand battleCommand; 
+       public void setCommand(ICommand command) 
+       { 
         battleCommand = command; 
-    } 
-    public void executeCommand() 
-    { 
+       } 
+       public void executeCommand() 
+       { 
         battleCommand.Execute(); 
+       } 
     } 
-} 
 2.13 CHARACTER 
 
-class Character 
-{ 
-    
-    private ICharacter _character; 
-    
-    public Character(ICharacter name) 
+    class Character 
     { 
-
- 
+    
+       private ICharacter _character; 
+    
+       public Character(ICharacter name) 
+      { 
         _character = name; 
-    } 
-    public void Attack() 
-    { 
+      } 
+      public void Attack() 
+      { 
         GameManager.GetGameManger().LogBattle($"{_character.GetName()} lauches an attack!"); 
-    } 
-    public void Defend() 
-    { 
+      } 
+       public void Defend() 
+      { 
         GameManager.GetGameManger().LogBattle($"{_character.GetName()} puts up his Guard!"); 
-    } 
-    public void Heal() 
-    { 
+      } 
+       public void Heal() 
+      { 
         GameManager.GetGameManger().LogBattle($"{_character.GetName()} heals up!"); 
-    } 
-    public void UndoMove() 
-    { 
+      } 
+      public void UndoMove() 
+      { 
         GameManager.GetGameManger().LogBattle($"{_character.GetName()} Retreats!"); 
+      } 
     } 
-} 
 2.14 GAMEMANAGER 
-class GameManager 
-{ 
-    private static GameManager gameManager; 
-    private static object gameLock = new object(); 
- 
-    private GameManager(){} 
-    public static GameManager GetGameManger() 
+
+     class GameManager 
     { 
+      private static GameManager gameManager; 
+      private static object gameLock = new object(); 
+ 
+      private GameManager(){} 
+      public static GameManager GetGameManger() 
+      { 
         lock (gameLock) 
         { 
             if(gameManager == null) 
@@ -298,8 +311,8 @@ class GameManager
 
         { 
         return gameManager; 
+     } 
     } 
-} 
  
 
       public void LogBattle(string message) 
