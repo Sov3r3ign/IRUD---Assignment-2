@@ -20,7 +20,7 @@ To understand this system, one must understand the relationships and interaction
 commands, enhancements, and state management. The design encourages flexibility, allowing new 
 character types or abilities to merge with the slightest adjustments. 
 
-1.2.1 SINGLETON PATTERN 
+<h2>1.2.1 SINGLETON PATTERN</h2>
 The singleton pattern is a design pattern that is used to ensure that a class can only have one concurrent 
 instance. Whenever additional objects of a singleton class are required, the previously created, single 
 instance is provided. 
@@ -28,7 +28,7 @@ instance is provided.
 • Purpose: Ensures there is only one instance managing the battle logs and game state. 
 • Usage: All commands and system messages log to this centralized class. 
 
-1.2.2 COMMAND PATTERN 
+<h2>1.2.2 COMMAND PATTERN</h2>
 The command pattern is a design pattern that enables all of the information for a request to be contained 
 within a single object. The command can then be invoked as required, often as part of a batch of queued 
 commands with rollback capabilities. 
@@ -37,7 +37,7 @@ commands with rollback capabilities.
 • Usage: Provides decoupling between the invoker (BattleCommander) and the receiver 
 (Character). 
 
-1.2.3 DECORATOR PATTERN 
+<h2>1.2.3 DECORATOR PATTERN</h2>
 The decorator pattern is a design pattern that extends the functionality of individual objects by wrapping 
 them with one or more decorator classes. These decorators can modify existing members and add new 
 methods and properties at run-time. 
