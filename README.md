@@ -1,4 +1,4 @@
-# IRUD---Assignment-2
+# IRUD-Assignment-2
 <h2>SECTION 1</h2> 
 <h2>SCENARIO OVERVIEW</h2> 
 It is vital to maintain a structured design and flexibility in code architecture to guarantee scalability and 
