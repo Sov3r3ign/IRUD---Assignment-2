@@ -326,9 +326,9 @@ methods and properties at run-time.
      //Console.WriteLine("[Overseer of the battle]"); 
      Console.WriteLine("Game Manager Log: " + message); 
      } 
-} 
+    } 
 
-SECTION 3 
+<h2>SECTION 3</h2>
 2.15 PROGRAM 
 
      static void Main(string[] args) 
