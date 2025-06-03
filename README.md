@@ -1,55 +1,18 @@
 # IRUD-Assignment-2
-<h2>SECTION 1</h2> 
-<h2>SCENARIO OVERVIEW</h2> 
-It is vital to maintain a structured design and flexibility in code architecture to guarantee scalability and 
-long-term ease of maintenance in the world of modern gaming, especially within role-playing games 
-(RPGs). CastleForge, which is the system described in this assignment, simulates a fantasy battle 
-scenario featuring character types such as knights and archers, each provided with unique abilities and 
-customizable enhancements. The main objective is to effectively manage character actions, upgrades, 
-and the overall game state, demonstrating solid software design principles through the application of 
-design patterns. 
-The CastleForge Battle System is built around three fundamental components:   
-Game Management: This refers to the centralized supervision of game events through a singleton class 
-known as GameManager, which ensures that all logs and interactions are controlled from a single access 
-point.   
-Character Actions: Actions that are done by characters, such as attacking, defending, and healing, are 
-abstracted through a command structure that supports undoable actions.   
-Character Enhancement: The enhancement of base characters like knights and archers is permitted by a 
-decorator pattern. This enables them to be able to equip magical weapons and armour at runtime.   
-To understand this system, one must understand the relationships and interactions between factories, 
-commands, enhancements, and state management. The design encourages flexibility, allowing new 
-character types or abilities to merge with the slightest adjustments. 
+<h2>SECTION 1 ⚔️</h2> <h2>SCENARIO OVERVIEW 🏰</h2> It is vital to maintain a structured design and flexibility in code architecture to guarantee scalability and long-term ease of maintenance in the world of modern gaming, especially within role-playing games (RPGs). **CastleForge**, which is the system described in this assignment, simulates a fantasy battle scenario featuring character types such as **knights 🛡️** and **archers 🏹**, each provided with unique abilities and customizable enhancements. The main objective is to effectively manage character actions, upgrades, and the overall game state, demonstrating solid software design principles through the application of **design patterns 📐**.
+The CastleForge Battle System is built around three fundamental components:
 
-<h2>1.2.1 SINGLETON PATTERN</h2>
-The singleton pattern is a design pattern that is used to ensure that a class can only have one concurrent 
-instance. Whenever additional objects of a singleton class are required, the previously created, single 
-instance is provided. 
+Game Management 🧠: This refers to the centralized supervision of game events through a singleton class known as GameManager 🧭, which ensures that all logs and interactions are controlled from a single access point.
 
-<ul>
-    <li>Class: GameManager </li>
-    <li>Purpose: Ensures there is only one instance managing the battle logs and game state. </li>
-    <li>Usage: All commands and system messages log to this centralized class. </li>
-</ul>
+Character Actions 🎯: Actions that are done by characters, such as attacking, defending, and healing, are abstracted through a command structure that supports undoable actions 🔁.
 
-<h2>1.2.2 COMMAND PATTERN</h2>
-The command pattern is a design pattern that enables all of the information for a request to be contained 
-within a single object. The command can then be invoked as required, often as part of a batch of queued 
-commands with rollback capabilities. 
-<ul>
-    <li>Classes: AttackCommand, DefendCommand, HealCommand, BattleCommander </li>
-    <li>Purpose: Encapsulates character actions into executable and undoable commands. </li>
-    <li>Usage: Provides decoupling between the invoker (BattleCommander) and the receiver (Character).</li>
-</ul> 
+Character Enhancement ✨: The enhancement of base characters like knights and archers is permitted by a decorator pattern 🎨. This enables them to equip magical weapons and armour 🗡️🛡️ at runtime.
 
-<h2>1.2.3 DECORATOR PATTERN</h2>
-The decorator pattern is a design pattern that extends the functionality of individual objects by wrapping 
-them with one or more decorator classes. These decorators can modify existing members and add new 
-methods and properties at run-time. 
-<ul>
-    <li>Classes: CharacterDecorator, FlameSword, DragonSlayer, FlamingArrows.</li>
-    <li>Purpose: Allows dynamic addition of enhancements (e.g., weapons, armor) to character objects.</li>
-    <li>Usage: Promotes flexibility in character customization without modifying the base class.</li>
-</ul>
+To understand this system, one must understand the relationships and interactions between factories 🏗️, commands 📝, enhancements 💎, and state management 🧾. The design encourages flexibility, allowing new character types or abilities to merge with the slightest adjustments.
+
+<h2>1.2.1 SINGLETON PATTERN 🧍‍♂️</h2> The singleton pattern is a design pattern that ensures a class can only have one concurrent instance. Whenever additional objects of a singleton class are required, the previously created, single instance is provided. <ul> <li>Class: <strong>GameManager 🧭</strong></li> <li>Purpose: Ensures there is only one instance managing the battle logs and game state 📜.</li> <li>Usage: All commands and system messages log to this centralized class 🗂️.</li> </ul>
+<h2>1.2.2 COMMAND PATTERN 📝</h2> The command pattern enables all of the information for a request to be contained within a single object. The command can then be invoked as required, often as part of a batch of queued commands with rollback capabilities 🔁. <ul> <li>Classes: <strong>AttackCommand ⚔️, DefendCommand 🛡️, HealCommand 💊, BattleCommander 🪖</strong></li> <li>Purpose: Encapsulates character actions into executable and undoable commands 🎮.</li> <li>Usage: Provides decoupling between the invoker (BattleCommander 🧞‍♂️) and the receiver (Character 👤).</li> </ul>
+<h2>1.2.3 DECORATOR PATTERN 🎨</h2> The decorator pattern extends the functionality of individual objects by wrapping them with one or more decorator classes. These decorators can modify existing members and add new methods and properties at run-time 🛠️. <ul> <li>Classes: <strong>CharacterDecorator 🧝, FlameSword 🔥🗡️, DragonSlayer 🐉⚔️, FlamingArrows 🔥🏹</strong></li> <li>Purpose: Allows dynamic addition of enhancements (e.g., weapons, armor) to character objects 🎯.</li> <li>Usage: Promotes flexibility in character customization without modifying the base class 🧩.</li> </ul>
 
 2.1ICOMMAND 
 
