@@ -2,7 +2,7 @@
 <h2>SECTION 1 ⚔️</h2> <h2>SCENARIO OVERVIEW 🏰</h2> It is vital to maintain a structured design and flexibility in code architecture to guarantee scalability and long-term ease of maintenance in the world of modern gaming, especially within role-playing games (RPGs). **CastleForge**, which is the system described in this assignment, simulates a fantasy battle scenario featuring character types such as **knights 🛡️** and **archers 🏹**, each provided with unique abilities and customizable enhancements. The main objective is to effectively manage character actions, upgrades, and the overall game state, demonstrating solid software design principles through the application of **design patterns 📐**.
 The CastleForge Battle System is built around three fundamental components:
 
-Game Management 🧠: This refers to the centralized supervision of game events through a singleton class known as GameManager 🧭, which ensures that all logs and interactions are controlled from a single access point.
+<b>Game Management</b> 🧠: This refers to the centralized supervision of game events through a singleton class known as GameManager 🧭, which ensures that all logs and interactions are controlled from a single access point.
 
 Character Actions 🎯: Actions that are done by characters, such as attacking, defending, and healing, are abstracted through a command structure that supports undoable actions 🔁.
 
