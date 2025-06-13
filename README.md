@@ -14,7 +14,7 @@ To understand this system, one must understand the relationships and interaction
 <h2>1.2.2 <b>COMMAND PATTERN 📝</b></h2> The command pattern enables all of the information for a request to be contained within a single object. The command can then be invoked as required, often as part of a batch of queued commands with rollback capabilities 🔁. <ul> <li>Classes: <strong>AttackCommand ⚔️, DefendCommand 🛡️, HealCommand 💊, BattleCommander 🪖</strong></li> <li>Purpose: Encapsulates character actions into executable and undoable commands 🎮.</li> <li>Usage: Provides decoupling between the invoker (BattleCommander 🧞‍♂️) and the receiver (Character 👤).</li> </ul>
 <h2>1.2.3 DECORATOR PATTERN 🎨</h2> The decorator pattern extends the functionality of individual objects by wrapping them with one or more decorator classes. These decorators can modify existing members and add new methods and properties at run-time 🛠️. <ul> <li>Classes: <strong>CharacterDecorator 🧝, FlameSword 🔥🗡️, DragonSlayer 🐉⚔️, FlamingArrows 🔥🏹</strong></li> <li>Purpose: Allows dynamic addition of enhancements (e.g., weapons, armor) to character objects 🎯.</li> <li>Usage: Promotes flexibility in character customization without modifying the base class 🧩.</li> </ul>
 
-2.1ICOMMAND 
+2.1 <b>ICOMMAND</b>
 
     interface ICommand 
     { 
@@ -22,7 +22,7 @@ To understand this system, one must understand the relationships and interaction
     void Undo();
     } 
  
-2.2 ICHARACTER 
+2.2 <b>ICHARACTER</b>
 
     interface ICharacter //Component 
     { 
@@ -31,7 +31,7 @@ To understand this system, one must understand the relationships and interaction
      int GetPower();
     } 
  
-2.3 CHARACTERDECORATOR 
+2.3 <b>CHARACTERDECORATOR</b>
 
     abstract class CharacterDecorator : ICharacter 
     { 
@@ -57,7 +57,7 @@ To understand this system, one must understand the relationships and interaction
     } 
 
     } 
-2.4 BASEKNIGHT 
+2.4 <b>BASEKNIGHT</b>
 
     class BaseKnight : ICharacter //Concrete Component 
     { 
