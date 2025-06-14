@@ -84,7 +84,7 @@ To understand this system, one must understand the relationships and interaction
         return 45; 
      } 
     } 
-2.5 BASEARCHER 
+2.5 <b>BASEARCHER</b>
 
     class BaseArcher : ICharacter 
     {  
@@ -110,7 +110,7 @@ To understand this system, one must understand the relationships and interaction
      } 
     } 
 
-2.6 FLAMESWORD 
+2.6 <b>FLAMESWORD</b>
 
     class FlameSword : CharacterDecorator 
     { 
@@ -128,7 +128,7 @@ To understand this system, one must understand the relationships and interaction
     } 
 
 
-2.7 DRAGONSLAYER 
+2.7 <b>DRAGONSLAYER</b> 
 
      class DragonSlayer : CharacterDecorator 
     { 
@@ -146,7 +146,7 @@ To understand this system, one must understand the relationships and interaction
      } 
     } 
  
-2.8 FLAMINGARROWS 
+2.8 <b>FLAMINGARROWS</b>
 
     class FlamingArrows : CharacterDecorator 
     { 
@@ -163,7 +163,7 @@ To understand this system, one must understand the relationships and interaction
  
     } 
 
-2.9 ATTACKCOMMAND 
+2.9 <b>ATTACKCOMMAND</b>
 
     class AttackCommand : ICommand 
     { 
@@ -185,7 +185,7 @@ To understand this system, one must understand the relationships and interaction
         knight.UndoMove(); 
       } 
     } 
-2.10 DEFENDCOMMAND 
+2.10 <b>DEFENDCOMMAND</b>
 
      class DefendCommand : ICommand 
     { 
@@ -203,7 +203,7 @@ To understand this system, one must understand the relationships and interaction
         knight.UndoMove(); 
       } 
     } 
-2.11 HEALCOMMAND 
+2.11 <b>HEALCOMMAND</b>
 
      class HealCommand : ICommand 
     { 
@@ -221,7 +221,7 @@ To understand this system, one must understand the relationships and interaction
         knight.UndoMove(); 
       } 
     } 
-2.12 BATTLECOMMANDER 
+2.12 <b>BATTLECOMMANDER</b> 
 
      class BattleCommander 
     { 
@@ -263,7 +263,7 @@ To understand this system, one must understand the relationships and interaction
         GameManager.GetGameManger().LogBattle($"{_character.GetName()} Retreats!"); 
       } 
     } 
-2.14 GAMEMANAGER 
+2.14 <b>GAMEMANAGER</b> 
 
      class GameManager 
     { 
