@@ -292,7 +292,8 @@ To understand this system, one must understand the relationships and interaction
     } 
 
 <h2>SECTION 3</h2>
-2.15 PROGRAM 
+2.15 
+<b>Program</b>
 
      static void Main(string[] args) 
     { 
