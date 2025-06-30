@@ -235,7 +235,7 @@ To understand this system, one must understand the relationships and interaction
         battleCommand.Execute(); 
        } 
     } 
-2.13 CHARACTER 
+2.13 <b>Character</b>
 
     class Character 
     { 
